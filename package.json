@@ -1,0 +1,50 @@
+{
+  "name": "async-lz-string",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Jack Bister",
+  "filename": "async-lz-string.js",
+  "description": "LZ-based compression algorithm",
+  "homepage": "https://jackbister.github.io/async-lz-string/",
+  "keywords": [
+    "async",
+    "lz",
+    "compression",
+    "string"
+  ],
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server -d --content-base ./demo --port 80 --host 0.0.0.0",
+    "start-test": "karma start"
+  },
+  "main": "libs/async-lz-string.js",
+  "typings": "typings/async-lz-string.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "2.8.8",
+    "jasmine": "3.1.0",
+    "karma": "2.0.4",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-cli": "1.0.1",
+    "karma-jasmine": "1.1.2",
+    "karma-typescript": "3.0.13",
+    "karma-typescript-es6-transform": "1.0.4",
+    "lz-string": "1.4.4",
+
+    "ts-loader": "4.4.2",
+    "typescript": "3.0.1",
+    "webpack": "4.14.0",
+    "webpack-cli": "3.0.8",
+    "webpack-dev-server": "3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackbister/async-lz-string.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jackbister/async-lz-string/issues"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
