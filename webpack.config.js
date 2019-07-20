@@ -1,8 +1,8 @@
 module.exports = {
     devtool: 'source-map',
-    entry: [
-        __dirname + '/src/async-lz-string.ts'
-    ],
+    entry: {
+        'async-lz-string': __dirname + '/src/async-lz-string.ts'
+    },
     module: {
         rules: [
             { test: /\.ts$/, loader: 'ts-loader' }
