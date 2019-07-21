@@ -9,6 +9,7 @@ module.exports = {
         ]
     },
     output: {
+        libraryTarget: 'umd',
         path: __dirname + '/libs',
         filename: '[name].js'
     },

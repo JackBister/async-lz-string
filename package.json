@@ -5,7 +5,7 @@
 	"author": "Jack Bister",
 	"filename": "async-lz-string.js",
 	"description": "LZ-based compression algorithm",
-	"homepage": "https://jackbister.github.io/async-lz-string/",
+	"homepage": "https://github.com/jackbister/async-lz-string/",
 	"keywords": [
 		"async",
 		"lz",
@@ -16,7 +16,8 @@
 		"build": "webpack -p",
 		"start": "webpack-dev-server -d --content-base ./demo --port 80 --host 0.0.0.0",
 		"start-test": "karma start",
-		"test": "karma start --single-run"
+		"test": "karma start --single-run",
+		"watch": "webpack --watch"
 	},
 	"main": "libs/async-lz-string.js",
 	"typings": "typings/async-lz-string.d.ts",
