@@ -1,6 +1,6 @@
 {
 	"name": "async-lz-string",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
 	"author": "Jack Bister",
 	"filename": "async-lz-string.js",
