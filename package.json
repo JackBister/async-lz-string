@@ -14,7 +14,6 @@
 	],
 	"scripts": {
 		"build": "webpack -p",
-		"start": "webpack-dev-server -d --content-base ./demo --port 80 --host 0.0.0.0",
 		"start-test": "karma start",
 		"test": "karma start --single-run",
 		"watch": "webpack --watch"
@@ -23,20 +22,19 @@
 	"typings": "typings/async-lz-string.d.ts",
 	"dependencies": {},
 	"devDependencies": {
-		"@types/jasmine": "3.3.14",
-		"jasmine": "3.4.0",
-		"karma": "4.2.0",
-		"karma-chrome-launcher": "3.0.0",
+		"@types/jasmine": "3.5.0",
+		"jasmine": "3.5.0",
+		"karma": "4.4.1",
+		"karma-chrome-launcher": "3.1.0",
 		"karma-cli": "2.0.0",
 		"karma-jasmine": "2.0.1",
 		"karma-typescript": "4.1.1",
 		"karma-typescript-es6-transform": "4.1.1",
 		"lz-string": "1.4.4",
-		"ts-loader": "6.0.4",
-		"typescript": "3.5.3",
-		"webpack": "4.36.1",
-		"webpack-cli": "3.3.6",
-		"webpack-dev-server": "3.7.2"
+		"ts-loader": "6.2.1",
+		"typescript": "3.7.4",
+		"webpack": "4.41.5",
+		"webpack-cli": "3.3.10"
 	},
 	"repository": {
 		"type": "git",
