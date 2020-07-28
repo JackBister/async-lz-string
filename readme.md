@@ -23,7 +23,7 @@ Add ```async-lz-string``` to your package.json and install it.
 There are two functions exported as a UMD module: ```compressToUTF16``` and ```decompressFromUTF16```. They do exactly what you expect them to do.
 
 Example usage in TypeScript:
-```
+```typescript
 import { compressToUTF16, decompressFromUTF16 } from 'async-lz-string';
 
 async function compressAndDecompress(str: string) {
@@ -37,7 +37,7 @@ async function compressAndDecompress(str: string) {
 If you want to change something in async-lz-string you are welcome to send a pull request.
 
 To get started, run the following in your terminal:
-```
+```bash
 git clone https://github.com/jackbister/async-lz-string.git
 cd async-lz-string
 npm install
