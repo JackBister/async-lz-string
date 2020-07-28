@@ -1,4 +1,4 @@
-module.exports = function(config) {
+module.exports = function (config) {
     config.set({
         autoWatch: true,
         browserNoActivityTimeout: 60000,
@@ -17,6 +17,6 @@ module.exports = function(config) {
             "**/*.ts": ["karma-typescript"],
         },
         reporters: ["progress", "karma-typescript"],
-        browsers: ["Chrome"]
+        browsers: ["ChromeHeadless"]
     });
 };
