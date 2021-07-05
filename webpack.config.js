@@ -1,3 +1,5 @@
+const EsmWebpackPlugin = require("@purtuga/esm-webpack-plugin");
+
 module.exports = {
   devtool: "source-map",
   entry: {
@@ -7,7 +9,8 @@ module.exports = {
     rules: [{ test: /\.ts$/, loader: "ts-loader" }],
   },
   output: {
-    libraryTarget: "umd",
+    library: "LIB",
+    libraryTarget: "var",
     path: __dirname + "/libs",
     filename: "[name].js",
     globalObject: "this",
@@ -15,4 +18,7 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".js"],
   },
+  plugins: [
+    new EsmWebpackPlugin()
+  ]
 };
