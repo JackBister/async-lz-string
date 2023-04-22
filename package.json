@@ -13,7 +13,8 @@
     "string"
   ],
   "scripts": {
-    "build": "webpack -p",
+    "build": "webpack --mode production",
+    "dev": "webpack",
     "check-runs-on-node": "npm run build && node ./test/node-test.js",
     "start-test": "karma start",
     "test": "karma start --single-run",
